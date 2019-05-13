@@ -1,7 +1,7 @@
 <?php
 require_once 'jsonRPCClient.php';
 
-$url = 'http://192.168.10.62/study/server.php';//服务端地址
+$url = 'http://127.0.0.1/study/server.php';//服务端地址
 $myExample = new jsonRPCClient($url,false);
 
 //客户端调用
